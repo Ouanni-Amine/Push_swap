@@ -6,7 +6,7 @@
 /*   By: aouanni <aouanni@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/02/05 21:03:58 by aouanni           #+#    #+#             */
-/*   Updated: 2025/02/07 17:34:08 by aouanni          ###   ########.fr       */
+/*   Updated: 2025/02/09 15:09:15 by aouanni          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ int	ft_range(t_ps **stacka)
 	int	range;
 
 	if (ft_lstsize(*stacka) > 100)
-		range = 38;
+		range = 37;
 	else
 		range = 11;
 	return (range);
